@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>5800136a-75c1-4cc7-8166-04f09d93f630</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>WandaWHTW</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AgendaCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AgendaPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AppStyle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ChatsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsultaPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HistoricChatPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LoginPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LoginResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MasterPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PageButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repository.cs" />
+  </ItemGroup>
+</Project>
